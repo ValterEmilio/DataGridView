@@ -1,0 +1,48 @@
+*{ /* configurações gerais da pagina*/
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.dgv{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+}
+.dgvTitulos{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-direction: row;
+    background-color: rgb(87, 11, 125);
+    color: rgb(255, 222, 222);
+    border-radius: 3px 3px 0px 0px;
+}
+
+.dgvTitulos div, .dgvLinha div{
+    padding: 5px;
+
+}
+.dgvDados{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+}
+.dgvLinha{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-direction: row;
+}
+.c1{
+    width:50px;
+}
+
+.c2, .c3, .c5 {
+    width: 100px;
+}
+.c4{
+    width: 75px;
+}
